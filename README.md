@@ -1,94 +1,112 @@
-# Integrity Under Variance (IUV) AI Governance Framework
+Integrity Under Variance (IUV) — AI Governance Framework
 
-**Author:** Nicholas D'Zilva  
-**Status:** Open-Core (Layer 1) + Proprietary Licensed Layers (Layer 2 & 3)
+Author: Nicholas D'Zilva  
+Status: Open-Core Framework (Layer 1) with Licensed Operational Layers (Layer 2 & 3)
 
 ---
 
 ## Overview
 
-The **Integrity Under Variance (IUV) Framework** provides a replicable, system-oriented approach to AI governance. It is designed to ensure that AI-assisted decisions remain coherent, reversible, and resilient under stress, environmental variance, and shifting incentives.
+Integrity Under Variance (IUV) is a systems-oriented AI governance framework designed to assess and preserve decision integrity under real-world conditions of stress, uncertainty, and incentive pressure.
 
-While much of AI governance focuses on compliance, accuracy, and explainability, the IUV framework addresses a critical blind spot: **decision fragility under real-world conditions**.
+While most AI governance approaches focus on compliance, accuracy, or explainability, IUV addresses a deeper failure mode: **decision fragility under variance** — where systems behave acceptably in controlled conditions but degrade when exposed to scale, pressure, or conflicting objectives.
 
-This repository represents **Layer 1 – the open-core framework**, intended for public reference, demonstration, and adoption. The full system, including the **executable governance engine and verification pipelines**, is **proprietary and available only under license**.
+This repository contains **Layer 1** of the IUV architecture: the public, descriptive framework.
+
+---
+
+## Scope of This Repository (Layer 1)
+
+This repository intentionally includes **only the open, non-operational layer** of the IUV system.
+
+Layer 1 is designed to:
+
+- Establish conceptual architecture and prior art
+- Provide a shared vocabulary for integrity under variance
+- Enable evaluation of applicability without exposing enforcement mechanisms
+- Demonstrate systems thinking without enabling replication of proprietary logic
+
+**Layer 1 does not enforce, simulate, validate, or certify decisions.**
 
 ---
 
 ## Public Layer 1 Contents
 
-The public layer includes:
+Included materials:
 
-- **PDF Documentation:** [IUV_Governance_Framework.pdf](./IUV_Governance_Framework.pdf)  
-  Complete white paper detailing the theory, architecture, and principles of IUV.
+- **IUV_Governance_Framework.pdf**  
+  The canonical white paper describing the theory, architecture, and principles of Integrity Under Variance.
 
-- **Framework Templates:**  
+- **Framework Templates**  
   - Decision mapping templates  
   - Governance checklists  
-  - Example scenario definitions (non-sensitive, synthetic)  
+  - Synthetic example scenarios (non-sensitive)
 
-- **Architecture Overview:**  
-  High-level diagrams showing the relationship between the open-core Layer 1 and licensed Layers 2 & 3.
+- **Architecture Overview**  
+  High-level diagrams illustrating the separation between:
+  - Conceptual framework (Layer 1)
+  - Enforcement and verification layers (Layers 2 & 3)
 
-- **Readme & Guides:**  
-  Instructions to understand the framework and conceptual integration into AI-assisted decision pipelines.
-
-**Purpose of Layer 1:**  
-
-- Establish prior art and authorship  
-- Demonstrate conceptual rigor and systems thinking  
-- Enable organizations to evaluate the framework’s applicability  
-- Preserve the integrity of your proprietary layers without exposing calibration, code, or scenario data
+- **Documentation & Guides**  
+  Explanatory material to support understanding and conceptual integration into AI-assisted decision pipelines.
 
 ---
 
-## Licensed Layers (2 & 3)
+## Licensed Operational Layers (Not Included)
 
-The following components are **not included in this repository** and require a commercial license:
+The following layers are **not** included in this repository and are available only under commercial license.
 
-**Layer 2 – Executable Governance Logic**  
-- Structural Reflection Engine (decision stress-testing)  
-- Integrity simulation engine with hash-signed constraints  
-- GIC classifier with proprietary thresholds  
-- Proprietary stress-test datasets for optionality, reversibility, and baseline erosion metrics  
+### Layer 2 — Integrity Enforcement
 
-**Layer 3 – Deployment & Verification**  
-- Audit-ready, hash-signed evidence pack generation  
-- Deployment checklists and verification workflows  
-- Board-level reporting and dashboard summaries  
+Provides runtime governance capabilities, including:
 
-**Access:**  
-Organizations interested in licensing Layer 2 & 3 should contact **Nicholas D'Zilva** to discuss deployment, integration, and licensing terms.  
+- Deterministic enforcement of non-negotiable integrity constraints
+- Pre-deployment decision validation under variance
+- Continuous monitoring for integrity degradation and drift
+- Structural prevention of policy bypass
+
+### Layer 3 — Deployment, Verification, and Evidence
+
+Provides institutional-grade governance evidence, including:
+
+- Deployment verification and attestation
+- Append-only integrity evidence generation
+- Audit-ready artifacts for regulators, boards, and risk committees
+- Post-incident reconstruction and forensic traceability
+
+Layers 2 and 3 are required for any claims of operational governance, enforcement, or certification.
 
 ---
 
-## License for Layer 1
+## Licensing
 
-The public Layer 1 materials are licensed under **CC-BY-ND 4.0**:  
-- You may **share** the PDF, templates, and readme  
-- **No derivatives** or commercial redistribution of the PDF or materials  
-- Proprietary code (Layers 2 & 3) is excluded from this license  
+### Layer 1 (This Repository)
+
+Layer 1 materials are licensed under **CC BY-ND 4.0**:
+
+- You may share and reference the materials with attribution
+- No derivatives or commercial redistribution
+- No claims of enforcement, certification, or governance completeness may be made using Layer 1 alone
+
+### Layers 2 & 3
+
+Operational enforcement and verification layers are proprietary and licensed separately.  
+They are **explicitly excluded** from the Layer 1 license.
 
 ---
 
 ## Contact
 
-**Nicholas D'Zilva**  
+Nicholas D'Zilva  
 Email: nicholasdzilva@gmail.com
 
-For licensing inquiries regarding Layers 2 & 3, please contact directly.
+For licensing, deployment, or institutional inquiries regarding Layers 2 & 3, please contact directly.
 
 ---
 
 ## Usage Notes
 
-- Layer 1 is **demonstrative** and intended for conceptual adoption.  
-- The real executable governance engine, simulations, and verification artifacts are **commercial IP**.  
-- Any attempts to reproduce or reverse-engineer Layer 2 & 3 without license are strictly prohibited.  
+Layer 1 is descriptive and conceptual.  
+It is intended to support understanding, evaluation, and architectural discussion.
 
----
-
-## Quick Links
-
-- [PDF White Paper](./IUV_Governance_Framework.pdf)  
-- [Layer 1 Templates](./templates/)
+Operational governance, enforcement, and verification require licensed access to Layers 2 and 3.
